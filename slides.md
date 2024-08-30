@@ -15,13 +15,30 @@ lineNumbers: true
 ---
 
 <div class="absolute inset-0 flex flex-col justify-center items-center">
-  <h1 class="relative inline-flex items-center">
+  <h1 class="relative inline-flex items-center mb-8">
     <span class="text-black mr-2">🚀</span>
     <span class="bg-clip-text text-transparent" style="background-image: linear-gradient(123deg, #5e4eff 13.15%, #f14eff 88.72%);">
       AI Tools Sharing
     </span>
   </h1>
-  <p class="pt-6">Exploring Cursor, Notion, Warp, and Claude</p>
+  <div class="flex justify-center items-center space-x-8 mt-12">
+    <div class="flex flex-col items-center">
+      <img src="/cursor.png" alt="Cursor" class="w-16 h-16 mb-2">
+      <p>Cursor</p>
+    </div>
+    <div class="flex flex-col items-center">
+      <img src="/notion.png" alt="Notion" class="w-16 h-16 mb-2">
+      <p>Notion</p>
+    </div>
+    <div class="flex flex-col items-center">
+      <img src="/warp.png" alt="Warp" class="w-16 h-16 mb-2">
+      <p>Warp</p>
+    </div>
+    <div class="flex flex-col items-center">
+      <img src="/claude.png" alt="Claude" class="w-16 h-16 mb-2">
+      <p>Claude</p>
+    </div>
+  </div>
 </div>
 
 ---
@@ -118,6 +135,9 @@ lineNumbers: true
       <li>Natural language to code conversion</li>
       <li>Contextual documentation</li>
     </ul>
+    <p class="mt-2">
+      <a href="https://www.cursor.com/" target="_blank" rel="noopener noreferrer">Learn more about Cursor</a>
+    </p>
   </div>
   <div>
     <h3>User Experiences</h3>
@@ -131,6 +151,10 @@ lineNumbers: true
 </div>
 
 <p class="pt-4">We'll showcase Cursor's capabilities in more detail later in the presentation.</p>
+
+---
+
+<img src="/public/cursor-blog-1.png" alt="Cursor IDE screenshot" class="w-full h-auto">
 
 ---
 
@@ -255,6 +279,47 @@ lineNumbers: true
 ---
 
 <h1 class="relative inline-flex items-center mb-5">
+  <span class="text-black mr-2">🎬</span>
+  <span class="bg-clip-text text-transparent" style="background-image: linear-gradient(123deg, #5e4eff 13.15%, #f14eff 88.72%);">
+    Demonstration: Refined MQTT Client Development
+  </span>
+</h1>
+
+<div class="grid grid-cols-2 gap-4">
+  <div>
+    <h3>Development Steps</h3>
+    <ol>
+      <li>Create requirements (Notion AI)</li>
+      <li>Initialize project (Warp AI)</li>
+      <li>Implement basic functionality (Cursor AI)</li>
+      <li>Add advanced features (Cursor AI)</li>
+      <li>Write focused unit tests (Cursor AI)</li>
+      <li>Update project configuration (Cursor AI)</li>
+      <li>Update documentation (Notion AI)</li>
+      <li>Finalize and submit code (Warp AI)</li>
+    </ol>
+  </div>
+  <div>
+    <h3>Key Takeaways</h3>
+    <ul>
+      <li>Seamless integration of multiple AI tools</li>
+      <li>Significant time savings in development</li>
+      <li>Enhanced code quality and consistency</li>
+      <li>Improved documentation process</li>
+      <li>Streamlined project management</li>
+    </ul>
+  </div>
+</div>
+
+<p class="pt-4">This demonstration showcases how AI tools can be effectively used throughout the development lifecycle.</p>
+
+---
+
+<img src="/public/cursor-vs-github-copilot.jpeg" alt="cursor-vs-github-copilot" class="w-full h-auto">
+
+---
+
+<h1 class="relative inline-flex items-center mb-5">
   <span class="text-black mr-2">🤔</span>
   <span class="bg-clip-text text-transparent" style="background-image: linear-gradient(123deg, #5e4eff 13.15%, #f14eff 88.72%);">
     Reflections and Future Outlook
@@ -309,6 +374,8 @@ lineNumbers: true
       Thank You
     </span>
   </h1>
-  <p class="pt-6">Presenter: [Your Name] | Date: [Current Date]</p>
+  <p class="pt-6">Presenter: Shifan Yu | Date: 2024-08-30</p>
   <p class="pt-2">Questions? Let's discuss!</p>
 </div>
+
+---
